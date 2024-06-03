@@ -1,0 +1,147 @@
+#Tools
+
+Screwdriver_Philips_No2:
+    Name: No. 2 Phillips screwdriver
+    Description: >
+        No2 Phillips screwdriver. This is the correct size
+        form an M4 pan head screw
+    Specs:
+        Drive Size: No. 2
+
+Needle_Nose_Pliers:
+    Name: Needle Nose Pliers
+    Description: >
+        Needle nosed pliers for removing excess plastic and tightening nuts and bolts. These are optional if you have comparable tools.
+
+Wire_Strippers:
+    Name: Wire Strippers
+    Description: >
+        Wire strippers for cutting and stripping wires.
+    Specs:
+        Must be able to strop 22 AWG wire.
+
+Soldering_Iron:
+    Name: Soldering Iron
+    Description: >
+        A soldering iron for soldering electrical components.
+
+Switch_Tester:
+    Name: Switch Tester
+    Description: >
+        A device used to test if a switch works. If you have a switch controlled device you know works, you may use that as a switch tester.
+
+
+
+#Hardware
+M4x3/8Pan_Steel:
+    Name: M4x3/8 Pan Head Steel
+    Description: >
+        M4 Pan Head screw of 3/8 inch length.
+    Suppliers:
+        RS:
+            PartNo: 528-817
+            Link: https://uk.rs-online.com/web/p/machine-screws/0528817/
+        McMasterCarr:
+            PartNo: 90116A207
+            Link: https://www.mcmaster.com/90116A207
+
+Hex_Bolt:
+    Name: 1/4"-20 UNC Hex Bolt
+    Description: >
+        1/4"-20 UNC hex bolt of 1/2 inch length.
+
+Hex_Nut:
+    Name: 1/4"-20 UNC Hex Nut
+    Description: > 
+        1/4"-20 UNC hex nut
+
+Tee_Nut:
+    Name: 1/4-20" UNC Tee Nut Insert
+    Description: >
+        1/4"-20 UNC tee nut insert of 5/16 inch length.
+
+#Electronics
+
+Mono_Cable:
+    Name: 3.5 mm mono cable
+    Description: >
+        A six (6) foot long 3.5 mm male-to-male mono cable.
+    Suppliers:
+        DigiKey:
+            PartNo:10-00344
+            Link: https://www.digikey.ca/en/products/detail/tensility-international-corp/10-00344/2350247
+
+Mono_Jack:
+    Name: 3.5 mm mono jack
+    Description: >
+        A 3.5 mm mono jack.
+    Suppliers:
+        DigiKey:
+            PartNo: MJ-3502
+            Link: https://www.digikey.ca/en/products/detail/cui-inc/MJ-3502/281321
+
+Limit_Switch:
+    Name: Limit Switch
+    Description: >
+        A limit switch.
+    Suppliers:
+        DigiKey:
+            PartNo: SS-3GP
+            Link: https://www.digikey.ca/en/products/detail/omron-electronics-inc-emc-div/SS-3GP/664724
+
+22_AWG_Wire:
+     Name: 22 AWG Wire
+     Description: >
+        22 AWG wire.
+
+
+
+#3D Printed Parts
+MMC60_Base_Bottom:
+    Name: MMC60 Base Bottom
+    Description: >
+        The 3D printed base of the MMC60 switch.
+    Suppliers:
+        Makers Making Change:
+            PartNo: 1A
+            Link: https://www.printables.com/model/214286-mmc60-switch
+MMC60_Base_Top:
+    Name: MMC60 Base Top
+    Description: >
+        The 3D printed top of the base of the MMC60 switch.
+    Suppliers:
+        Makers Making Change:
+            PartNo: 1B
+            Link: https://www.printables.com/model/214286-mmc60-switch
+MMC60_Button_Flexure:
+    Name: MMC60 Flexure
+    Description: >
+        The 3D printed flexure of the MMC60 switch.
+    Suppliers:
+        Makers Making Change:
+            PartNo: 1C
+            Link: https://www.printables.com/model/214286-mmc60-switch
+MMC60_Button_Pin:
+    Name: MMC60 Pin
+    Description: >
+        The 3D printed pin of the MMC60 switch.
+    Suppliers:
+        Makers Making Change:
+            PartNo: 1D
+            Link: https://www.printables.com/model/214286-mmc60-switch
+MMC60_Switch_Mount:
+    Name: MMC60 Switch Mount
+    Description: >
+        The 3D printed switch mount of the MMC60 switch.
+    Suppliers:
+        Makers Making Change:
+            PartNo: 1E
+            Link: https://www.printables.com/model/214286-mmc60-switch
+MMC60_Button_Cap:
+    Name: MMC60 Cap
+    Description: >
+        The 3D printed button cap of the MMC60 switch.
+    Suppliers:
+        Makers Making Change:
+            PartNo: 1F
+            Link: https://www.printables.com/model/214286-mmc60-switch
