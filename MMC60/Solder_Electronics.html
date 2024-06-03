@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Untitled project</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../static/Logo/favicon.ico" />
+<link rel="icon" type="image/png" href="../static/Logo/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="../static/Logo/favicon-16x16.png" sizes="16x16" />
+
+    <link href="../static/style.css" rel="stylesheet">
+                    
+</head>
+<body>
+<header class="site-header">
+    <div class="wrapper header-wrapper" >
+        <div class=header-text>
+   
+    <h1 class="site-title">Untitled project</h1>
+</div>
+            </div>
+</header>
+<div class="page-content">
+            <div>
+            <nav class="sidebar">
+                <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+                </a>
+                <ul class="nav-list">
+                <li>
+    <a class="navhome" href="../">
+        Untitled project
+    </a>
+</li>
+<li class="active">
+    <a class="active" href="../MMC60/index.html">
+        MMC60 Assembly Guide
+    </a>
+        <ul class="sub-nav-list">
+                <li>
+            <a class="not-active" href="../MMC60/index_BOM.html">
+                Bill of Materials
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="../MMC60/Print-Parts.html">
+                3D Printing Parts
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="../MMC60/Remove_Plastic.html">
+                Remove sacrificial plastic
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="../MMC60/Insert_Tee_Nut.html">
+                Insert Nuts
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="../MMC60/Assemble_Electronics.html">
+                Assemble Electronics
+            </a>
+        </li>
+                <li>
+            <a class="active" href="../MMC60/Solder_Electronics.html">
+                Solder Electronics
+            </a>
+        </li>
+                <li>
+            <a class="not-active" href="../MMC60/Assemble_Switch.html">
+                Assemble Switch
+            </a>
+        </li>
+            </ul>
+    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper">
+    <h1 id="solder-electronics">Solder Electronics</h1>
+<h2 class="page-step" id="solder-the-wired-connections">Step 1: Solder the wired connections</h2>
+<p>Using a <a href="Parts/Soldering_Iron.html">soldering iron</a>, solder the wired connections at the four indicated squares. Keep the tips of the terminals free of solder, as shown.</p>
+<p><img alt="" src="images/Solder_Wires.png" title="" /></p>
+<h2 class="page-step" id="test-the-switch">Step 2: Test the switch</h2>
+<p>Using a <a href="Parts/Switch_Tester.html">switch tester</a>, test that the newly soldered switch works. Use the <a href="Parts/Mono_Cable.html">3.5 mm mono cable</a> to connect the mono jack to the switch tester, and press the small bump on the top of the limit switch. The LED on the switch tester should light up when you press the switch.</p>
+<p>If the switch works as expected, skip the Troubleshooting section below.</p>
+<p><img alt="" src="images/Test_Switch.png" title="" /></p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>If the switch does not work as expected, try these troubleshooting steps.</p>
+<p><strong>Issue:</strong> The LED does not turn on or is inconsistent (blinks or only sometimes turns on) when the limit switch is pressed.</p>
+<ul>
+<li>Check that the wires are connected to the correct terminals.</li>
+</ul>
+<p><img alt="" src="images/Connect_Wires.png" title="" /></p>
+<p>If the wires were connected incorrectly, remove the wires and connect them correctly, then solder them in place.</p>
+<ul>
+<li>Check that the soldered connections are secure. Gently pull on/twist the wires. They should not move at the solder joints.</li>
+</ul>
+<p>If the wires move at the solder joints, use the soldering iron to reheat the joint. Make sure the wires and terminals (metal legs on the mono jack and limit switch) are both heated so solder connects them together.</p>
+<p><strong>Issue:</strong> The LED is always on when the switch is plugged in.</p>
+<ul>
+<li>Check if wires or solder are touching across the terminals of the mono jack and/or limit switch.</li>
+</ul>
+<p>If wires are touching across terminals, you may trim excess wire. If solder is connecting two terminals together, remove the excess solder using a solder sucker or other tool.</p>
+<hr />
+<p><a href="Assemble_Electronics.html">Previous page</a> | <a href="Assemble_Switch.html">Next page</a></p>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="wrapper">
+        <a target="_blank" rel="noopener noreferrer" href="https://gitbuilding.io">
+    <img class="icon" src="../static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
+    <span class="info">Documentation powered by GitBuilding</span>
+</a>
+
+    </div>
+</footer></body>
+</html>
