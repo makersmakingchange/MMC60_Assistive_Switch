@@ -1,8 +1,5 @@
-
-<!--- 
-Open Source Assistive Technology: GitHub Readme Template
-Version 1.1 (2024-Mar-15)
- --->
+<!-- Open Source Assistive Technology: GitHub Readme Template Version 1.1 (2024-Mar-15) -->
+<!-- Template files available at https://github.com/makersmakingchange/OpenAT-Template -->
 
 <!--- 
 Introductory text. This section and the following text should be removed.
@@ -27,14 +24,9 @@ This template has a number of fields that can be searched and replaced with othe
 TITLE
 Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
  --->
-# <DeviceName>
+# MMC60 Assistive Switch
 
-
-
-<!--- 
-SUMMARY
-A brief summary of the project. What it does, who it is for, how much it costs.
- --->
+<!--- SUMMARY A brief summary of the project. What it does, who it is for, how much it costs.  --->
 The <DeviceName> is an assistive technology widget that makes it easier to document Open-Source Assistive Technology devices. 
 
 It is intended for use by makers. 
@@ -157,6 +149,7 @@ Source Location: <Repository_Link>
 
 ---
 
+<!-- ABOUT MMC START -->
 ## About Makers Making Change
 [<img src="https://raw.githubusercontent.com/makersmakingchange/makersmakingchange/main/img/mmc_logo.svg" width="500" alt="Makers Making Change Logo">](https://www.makersmakingchange.com/)
 
@@ -175,3 +168,4 @@ Makers Making Change leverages the capacity of community based Makers, Disabilit
 
 ### Contact Us
 For technical questions, to get involved, or to share your experience we encourage you to [visit our website](https://www.makersmakingchange.com/) or [contact us](https://www.makersmakingchange.com/s/contact).
+<!-- ABOUT MMC END -->
