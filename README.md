@@ -1,10 +1,4 @@
 <!-- Open Source Assistive Technology: GitHub Readme Template Version 1.1 (2024-Mar-15) -->
-<!-- Template files available at https://github.com/makersmakingchange/OpenAT-Template -->
-
-<!--- 
-Introductory text. This section and the following text should be removed.
- --->
-This is a GitHub repository intended to act as a template for an open source assistive technology device. It is meant to contain all design files, build files, and documentation for the project. More information about how to use the template is available in the [Documentation_Guide](/Documentation_Guide.docx). You can see examples of other Open AT Devices at the Makers Making Change [website](https://www.makersmakingchange.com/s/category/assistive-devices). 
 
 <!---
 INSTRUCTIONS
@@ -25,6 +19,8 @@ TITLE
 Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
  --->
 # MMC60 Assistive Switch
+
+2025-May-02: This repository is in the process of updating.
 
 <!--- SUMMARY A brief summary of the project. What it does, who it is for, how much it costs.  --->
 The <DeviceName> is an assistive technology widget that makes it easier to document Open-Source Assistive Technology devices. 
