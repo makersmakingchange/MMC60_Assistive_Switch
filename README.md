@@ -1,26 +1,9 @@
 <!-- Open Source Assistive Technology: GitHub Readme Template Version 1.1 (2024-Mar-15) -->
-
-<!---
-INSTRUCTIONS
-This is a markdown template for creating the README.md file in a GitHub repository. This file is rendered and displayed automatically when someone visits the repository.
-
-This document includes helper text that will not be displayed when rendered. Any text between the less-than sign + exclamation mark + three hyphen-minus (<!---) and matching three hyphen-minus + greater-than sign will not be displayed. This helper text can be deleted once the corresponding section is completed.
-
-This template has a number of fields that can be searched and replaced with other text:
- - <Device_Name> Replace this with filename-friendly version of the device with underscores. e.g., Open_Wobble_Switch
- - <DeviceName> Replace this with the human-readable name of the device with spaces. e.g., Open Wobble Switch
- - <DesignerName> Replace this with the person or organization responsible for the design. e.g., John Doe.
- - <RepositoryLink> Replace this with the web address for the repository. e.g., (e.g., https://github.com/makersmakingchange/Open-Wobble-Switch))
- - <MMCWebLink> This is an alphanumeric id for the Makers Making Change Website. e.g., 01tJR000000698oYAA. This will come from MMC staff. 
- --->
- 
- <!--- 
-TITLE
-Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
- --->
+<!--- TITLE Should match the name of the GitHub repository. Choose something descriptive rather than whimsical.  --->
 # MMC60 Assistive Switch
 
-2025-May-02: This repository is in the process of updating.
+> [!IMPORTANT]
+2025-May-02: This repository is in the process of being updated.
 
 <!--- SUMMARY A brief summary of the project. What it does, who it is for, how much it costs.  --->
 The <DeviceName> is an assistive technology widget that makes it easier to document Open-Source Assistive Technology devices. 
