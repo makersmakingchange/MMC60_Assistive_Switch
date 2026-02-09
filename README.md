@@ -6,18 +6,16 @@
 2025-May-02: This repository is in the process of being updated.
 
 <!--- SUMMARY A brief summary of the project. What it does, who it is for, how much it costs.  --->
-The <DeviceName> is an assistive technology widget that makes it easier to document Open-Source Assistive Technology devices. 
-
-It is intended for use by makers. 
+The MMC60 Switch is a cost-effective, 3D printable accessibility switch. It can be used to control electronics including phones, computers, adapted toys, and gaming consoles.
 
 The device is comprised of off-the-shelf electronics and 3D printed parts. 
 
-The overall cost of materials is about $<MaterialCost> (plus $<ShippingCost> for component shipping).
+The overall cost of materials is about $12 (plus $16 for component shipping).
 
-<img src="Photos/<Device_Name>.jpg" width="500" alt="Picture of <DeviceName>.">
+<img src="Photos/MMC60_Switch.png" width="500" alt="Picture of the MMC60 Switch.">
 
 ## More info at
-- [Makers Making Change Assistive Device Library Listing](<MMCWebLink>)
+- [Makers Making Change Assistive Device Library Listing](https://www.makersmakingchange.com/product/mmc60-switch/01tJR000000693rYAA)
 
 ## How to Obtain the Device
 ### 1. Do-it-Yourself (DIY) or Do-it-Together (DIT)
@@ -26,7 +24,7 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 ### 2. Request a build of this device
 
-You may also submit a build request through the [Makers Making Change Assistive Device Library Listing](<MMCWebLink>) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
+You may also submit a build request through the [Makers Making Change Assistive Device Library Listing](https://www.makersmakingchange.com/product/mmc60-switch/01tJR000000693rYAA) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
 
 ### 3. Build this device for someone else
 
@@ -37,21 +35,21 @@ If you have the skills and equipment to build this device, and would like to don
 
 ### 1. Read through the Maker Guide
 
-The [Maker Guide](/Documentation/<Device_Name>_Maker_Guide.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions (if applicable) and testing.
+The [Maker Guide](/Documentation/MMC60_Assistive_Switch_Maker_Guide.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, and testing.
 
 
 ### 2. Order the Off-The-Shelf Components
 
-The [Bill of Materials](/Documentation/<Device_Name>_BOM.xlsx) lists all of the parts and components required to build the device.
+The [Bill of Materials](/Documentation/MMC60_Assistive_Switch_BOM.xlsx) lists all of the parts and components required to build the device.
 
 
 ### 3. Print the 3D Printable components
 
 All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
 
-### 4. Assemble the <DeviceName>
+### 4. Assemble the MMC60 Switch
 
-Reference the [Assembly Guide](/Documentation/<Device_Name>_Assembly_Guide.pdf) for the tools and steps required to build each portion.
+Reference the [Assembly Section of the Maker Guide](/Documentation/MMC60_Maker_Guide.pdf) for the tools and steps required to build each portion.
 
 ## How to improve this Device
 As open source assistive technology, you are welcomed and encouraged to improve upon the design. 
@@ -60,10 +58,10 @@ As open source assistive technology, you are welcomed and encouraged to improve 
 ### Documentation
 | Document             | Version | Link |
 |----------------------|---------|------|
-| Design Rationale     | 1.0     | [<DeviceName>_Design_Rationale](/Documentation/<Device_Name>_Design_Rationale.pdf)     |
-| Maker Guide          | 1.0     | [<DeviceName>_Maker_Checklist](/Documentation/<Device_Name>_Maker_Guide.pdf)     |
-| Bill of Materials    | 1.0     | [<DeviceName>_Bill_of_Materials](/Documentation/<Device_Name>_BOM.xlsx)     |
-| User Guide           | 1.0     | [<DeviceName>_User_Guide](/Documentation/<Device_Name>_Quick_Guide.pdf)    |
+| Design Rationale     | 1.0     | [MMC60 Assistive Switch_Design_Rationale](/Documentation/MMC60_Assistive_Switch_Design_Rationale.pdf)     |
+| Maker Guide          | 1.0     | [MMC60 Assistive Switch_Maker_Checklist](/Documentation/MMC60_Assistive_Switch_Maker_Guide.pdf)     |
+| Bill of Materials    | 1.0     | [MMC60 Assistive Switch_Bill_of_Materials](/Documentation/MMC60_Assistive_Switch_BOM.xlsx)     |
+| User Guide           | 1.0     | [MMC60 Assistive Switch_User_Guide](/Documentation/MMC60_Assistive_Switch_USer_Guide.pdf)    |
 | Changelog            | 1.0     | [Changelog](CHANGES.txt)     |
 
 ### Design Files
@@ -72,7 +70,6 @@ DESIGN FILES
 Include a copy of the original design files to facilitate easy editing and customization. Consider also including a generic format (e.g., STEP)
 --->
  - [CAD Files](/Design_Files/CAD_Design_Files)
- - [PCB Files](/Design_Files/PCB_Design_Files)
 
 <!---
 BUILD FILES
@@ -80,8 +77,6 @@ Include a copy of the build files intended for manufacturing. This may include s
 --->
 ### Build Files
  - [3D Printing Files](/Build_Files/3D_Printing_Files)
- - [PCB Build Files](/Build_Files/PCB_Build_Files)
- - [Firmware Files](/Build/Firmware_Files)
 
 <!---
 ATTRIBUTION
@@ -89,7 +84,7 @@ Provide any necessary attribution for designs or components that are included in
 --->
 ## Attribution
 
-The device was designed by <DesignerName>. 
+The device was designed by Neil Squire's Makers Making Change Program. 
 
 <!---
 This is the attribution for the template.
@@ -103,8 +98,6 @@ List the names of the people that contributed to the design. This could include 
 ### Contributors
 
 Designers:
- - Designer 1 
- - Designer 2
 
 
 <!---
@@ -112,7 +105,7 @@ LICENSE
 Add the year(s) for the copyright and the Designer Name. You may use the standard set of open licenses or choose your own for the hardware, software, and accompanying materials.
 --->
 ## License
-Copyright (c) YYYY <DesignerName>.
+Copyright (c) 2022, Neil Squire.
 
 This repository describes Open Hardware:
  - Everything needed or used to design, make, test, or prepare the <Device-Name> is licensed under the [CERN 2.0 Weakly Reciprocal license (CERN-OHL-W v2) or later](https://cern.ch/cern-ohl ) .
@@ -123,7 +116,7 @@ You may redistribute and modify this documentation and make products using it un
 This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
 Please see the CERN-OHL-W v2 for applicable conditions.
 
-Source Location: <Repository_Link> 
+Source Location: https://github.com/makersmakingchange/MMC60_Assistive_Switch
 
 
 ---
